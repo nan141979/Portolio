@@ -4,7 +4,11 @@
   "description": "Project full",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo startando",
+    "prestart": "echo prestart",
+    "poststart": "echo post start",
+    "postinstall": "cp -r node_modules/bootstrap/dist src/components/css/bootstrap/ && cp -r node_modules/font-awesome/css src/components/css/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/font/font-awesome/"
   },
   "author": "",
   "license": "ISC",
