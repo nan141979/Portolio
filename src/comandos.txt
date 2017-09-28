@@ -1,0 +1,2 @@
+como transformar um arquivo scss em css => 
+  $ npm run nodesass "local do scss" "local onde sera salvo css"

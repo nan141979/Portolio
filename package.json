@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo startando",
-    "prestart": "echo prestart",
-    "poststart": "echo post start",
-    "postinstall": "cp -r node_modules/bootstrap/dist src/components/css/bootstrap/ && cp -r node_modules/font-awesome/css src/components/css/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/font/font-awesome/"
+    "nodesass":"node-sass"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
   }
 }
