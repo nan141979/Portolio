@@ -1,2 +1,9 @@
 como transformar um arquivo scss em css => 
   $ npm run nodesass "local do scss" "local onde sera salvo css"
+
+como monitorar qualquer alteração dentro de um scss e já atualizar o css de uma pastas
+  $ npm run nodesass -- --watch "local pasta scss" -o local "pasta css" 
+ex: npm run nodesass -- --watch src/sass -o src/css
+
+
+

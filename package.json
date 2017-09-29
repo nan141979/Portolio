@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "nodesass":"node-sass"
+    "nodesass": "node-sass",
+    "gulp": "gulp"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
   }
 }
